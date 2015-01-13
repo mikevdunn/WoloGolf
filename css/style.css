@@ -1,25 +1,42 @@
-<style>
-body {
-    background-color: #d0e4fe;
+
+h1{
+	font-family arial;
+}
+h2{
+	font-family arial;
+}
+h3{
+	font-size: 80px;
+}
+h4{
+	font-family arial;
+}
+h5{
+	font-family arial;
+}
+h6{
+	font-family arial;
 }
 
-h1 {
-    color: black
-    text-align: left;
+
+li a{
+	text-decoration: none;
 }
 
-p {
-    font-family: "Times New Roman";
-    font-size: 20px;
-}
-
-
-
-li {
-  display: inline-block;
-  margin: 0 10px;
+li{
+	list-style: none;
 }
 
 
-</style>
+
+.header_content{
+	background-color: blue;
+	width:60%;
+}
+
+.header_content h1{
+	font-size: 40px;
+}
+
+
 
