@@ -18,15 +18,38 @@ h6{
 	font-family arial;
 }
 
+ul li { display: inline;
+ }
 
-li a{
+
+
+ nav li a{
 	text-decoration: none;
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
 }
 
 li{
 	list-style: none;
+	display inline;
 }
 
+.nav_content{
+	background-color: yellow;
+}
+.nav_content ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav_content li{
+	display: inline-block;
+    border-right: solid 1px #950025;
+    padding: 0 5px;
+}
 
 
 .header_content{
