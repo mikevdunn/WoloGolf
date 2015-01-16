@@ -67,16 +67,20 @@ ul{
 	font-size: 40px;
 }
 .left_boxes{
+	  float: left;
 	  border: 1px solid gray;
-	  margin: 0;
-	  padding-left: 5;
+	  height: 300px;
+	  margin: 5px;
+	  padding: 10px;
 	  margin-right: auto;
 	  margin-left: auto;
 }
 .right_boxes{
+	  float: right;
 	  border: 1px solid gray;
-	  margin: 0;
-	  padding: 0;
+	  height: 300px;
+	  margin: 5px;
+	  padding: 10px;
 	  margin-right: auto;
 	  margin-left: auto;
 }
