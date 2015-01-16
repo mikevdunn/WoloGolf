@@ -1,3 +1,21 @@
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+	font-family: Arial, Helvetica, sans-serif;
+}
 nav li a{
 	text-decoration: none;
 	padding-top: 25px;
@@ -14,7 +32,13 @@ ul{
 	display inline;
 }
 .nav_content{
-		width:90%;
+	width:90%;
+ 	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 .nav_content ul{
 	list-style-type: none;
@@ -24,40 +48,81 @@ ul{
 }
 .nav_content li{
 	display: inline-block;
-	border-right: solid 1px #950025;
 	padding: 0 5px;
 }
 #lefmost li{
 	border-right: none;
 }
 .header_content{
-	background-color: blue;
 	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .header_content h1{
 	font-size: 40px;
 }
+.header_content li{
+	font-size: 40px;
+}
 .left_boxes{
 	  border: 1px solid gray;
-	  width: 90%;
-	  text-align: left;
 	  margin: 0;
-	  padding: 0;
- 	  align-content: center;
-
+	  padding-left: 5;
+	  margin-right: auto;
+	  margin-left: auto;
 }
 .right_boxes{
 	  border: 1px solid gray;
-	  width: 90%;
-	  text-align: left;
 	  margin: 0;
 	  padding: 0;
-	  align-content: center;
+	  margin-right: auto;
+	  margin-left: auto;
+}
+.first_section{
+	border: 1px solid gray;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+
+}
+.first_section ul{
+	border: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 10;
 }
 .first_section li{
 	list-style: none;
 	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.second_section{
+	margin-top: 5px;
+	border: 1px solid gray;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+
+}
+.third_section{
+	margin-top: 5px;
+	border: 1px solid gray;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+
 }
 
+.the_footer{
+	margin-top: 5px;
+	border: 1px solid gray;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
 
 
