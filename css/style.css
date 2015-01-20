@@ -1,27 +1,17 @@
-h1{
+body{
 	font-family: Arial, Helvetica, sans-serif;
+	margin:0;
 }
-h2{
-	font-family: Arial, Helvetica, sans-serif;
-}
-h3{
-	font-family: Arial, Helvetica, sans-serif;
-}
-h4{
-	font-family: Arial, Helvetica, sans-serif;
-}
-h5{
-	font-family: Arial, Helvetica, sans-serif;
-}
-h6{
-	font-family: Arial, Helvetica, sans-serif;
-}
+ 
+a { color: inherit; } 
+
 nav li a{
 	text-decoration: none;
+	color:	white;
 	padding-top: 25px;
 	padding-right: 50px;
 	padding-bottom: 25px;
-	padding-left: 50px;
+	padding-left: 20px;
 }
 li{
 	list-style: none;
@@ -32,33 +22,26 @@ ul{
 	display inline;
 }
 .nav_content{
-	width:90%;
- 	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	width:100%;
+ 	margin: 0 auto;
+ 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-
+	background-color: #006A08;
+	padding-top: 1px;
 }
 .nav_content ul{
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding-left: 20;
 	text-align: left;
 }
 .nav_content li{
 	display: inline-block;
-	padding: 0 5px;
-}
-#lefmost li{
-	border-right: none;
+	padding: 0 2px;
 }
 .header_content{
 	width:90%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin: auto;
 }
 .header_content h1{
 	font-size: 40px;
@@ -67,71 +50,51 @@ ul{
 	font-size: 40px;
 }
 .left_boxes{
-	  float: left;
-	  border: 1px solid gray;
-	  height: 10%;
-	  margin: 5px;
-	  padding: 10px;
-	  margin-right: auto;
-	  margin-left: auto;
-}
+	border: 1px solid gray;
+	margin: 10%;
+	vertical-align: top }
 .right_boxes{
-	  margin-right: auto;
-	  margin-left: auto;
-	  float: right;
-	  border: 1px solid gray;
-	  height: 10%;
-	  margin: 5px;
-	  padding: 10px;
-}
+	border: 1px solid gray;
+	margin: 10%;
+	  }
 .right_boxes li{
 }
 .right_boxes ul{
 	  height: 10%;
-	  margin-right: auto;
-	  margin-left: auto;
+	  margin: auto;
 }
 .first_section{
 	border: 1px solid gray;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
+ 	text-align: center;
 	width: 90%;
-
 }
 .first_section ul{
 	border: none;
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 }
 .first_section li{
 	list-style: none;
 	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 }
 .second_section{
 	margin-top: 5px;
 	border: 1px solid gray;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	width: 90%;
-
 }
 .third_section{
 	margin-top: 5px;
 	border: 1px solid gray;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	width: 90%;
-
 }
-
 .the_footer{
 	margin-top: 5px;
 	border: 1px solid gray;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	width: 90%;
 }
 
