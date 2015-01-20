@@ -76,15 +76,17 @@ ul{
 	  margin-left: auto;
 }
 .right_boxes{
+	  margin-right: auto;
+	  margin-left: auto;
 	  float: right;
 	  border: 1px solid gray;
 	  height: 10%;
 	  margin: 5px;
 	  padding: 10px;
-	  margin-right: auto;
-	  margin-left: auto;
 }
 .right_boxes li{
+}
+.right_boxes ul{
 	  height: 10%;
 	  margin-right: auto;
 	  margin-left: auto;
